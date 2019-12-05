@@ -39,9 +39,9 @@ public class Homework_1 {
         int b = a % 400;
         int d = a % 100;
         if (c == 0 && d != 0 || b == 0) {
-            System.out.println("Год високосный");
+            System.out.println("Год високосный.");
         } else {
-            System.out.println("Год не високосный");
+            System.out.println("Год не високосный.");
         }
     }
 }
